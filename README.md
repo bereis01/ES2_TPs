@@ -14,7 +14,7 @@ Este trabalho prático tem por objetivo o desenvolvimento de uma ferramenta de l
 
 Em particular, propõe-se uma ferramenta que avalia a evolução do repositório quanto a diferentes quesitos de qualidade ao longo do tempo (em uma granularidade de, por exemplo, anos). De maneira preliminar, estabelece-se três quesitos: complexidade, acoplamento e responsabilidade. Em cada um, heurísticas serão levantadas para a formulação de uma *score* de qualidade. Em termos de complexidade, pode-se utilizar a média da quantidade de linhas por função. Em termos de acoplamento, uma métrica interessante talvez seja a quantidade média de referências a outras classes por classe. Por fim, em termos de responsabilidade, a distribuição de contribuições ao código entre os colaboradores do repositório e quantos concentram a maior parte delas. Tais heurísticas, como mencionado, serão agregadas em uma *score* atribuída a cada quesito, indicando se o respectivo sistema tem evoluído ou tem decaído em termos de sua qualidade em cada um deles.
 
-Para isso, informações extraídas do repositório GitHub do sistema serão utilizadas. Isto é, a ferramenta receberá como entrada uma URL do GitHub. Elementos a serem analisados potencialmente incluem o histórico de commits, as diferentes versões do código ao longo do tempo, dentre outros, os quais deverão ser devidamente parseados e agregados.
+Para isso, informações extraídas do repositório GitHub do sistema serão utilizadas. Isto é, a ferramenta receberá como entrada uma URL do GitHub. Elementos a serem analisados potencialmente incluem o histórico de commits, as diferentes versões do código ao longo do tempo, dentre outros.
 
 ## Tecnologias
 
